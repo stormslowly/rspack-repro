@@ -23,7 +23,7 @@ const config = {
     clean: true,
     path: isRunningWebpack
       ? path.resolve(__dirname, "webpack-dist")
-      : path.resolve(__dirname, "rspack-dist"),
+      : path.resolve(__dirname, "dist"),
     filename: "[name].js",
   },
   experiments: {
