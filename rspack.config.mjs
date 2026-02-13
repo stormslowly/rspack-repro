@@ -26,10 +26,10 @@ const config = {
       : path.resolve(__dirname, "dist"),
     filename: "[name].js",
   },
-  optimization:{
+  optimization: {
     // minimize: false,
     moduleIds: "named",
-  }
+  },
   experiments: {
     css: true,
   },
